@@ -233,3 +233,49 @@ section{
     color: #374151;
     text-align: left;
 }
+
+/* cintact section styles */
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 150px;
+    background-color: rgba(77, 71, 255, 0.014);
+}
+.contact h2{
+    font-size: 97px;
+    font-weight: bold;
+    /* margin-bottom: 30px; */
+    color: #000000;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    /* max-width: 500px; */
+}
+.contact-form input, .contact-form textarea{
+     padding: 12px 65px;
+     font-size: 15px;
+     border-radius: 8px;
+     border: 1px solid #d1d5db;
+     outline: none;
+     resize: none;
+}
+.contact-form button{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.contact-form button:hover{
+    transform: translateY(-5px);
+}
