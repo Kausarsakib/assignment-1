@@ -55,11 +55,12 @@
 .signup{
     background-color: #4E47FF;
     color: #FFFFFF;
-    padding: 15px 25px;
+    padding: 20px 30px;
     margin-right: 150px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    font-size: 16px;
     font-weight: 600;
     transition: tranform 0.3s ease;
 }
