@@ -107,7 +107,8 @@ section{
     justify-content: space-between;
     /* padding: 116px 150px; */
     flex-wrap: wrap;
-    gap: 50px;
+    /* gap: 50px; */
+    max-width: 1140px;
     /* margin: 0 auto; */
 }
 .text{
@@ -235,7 +236,7 @@ section{
     text-align: left;
 }
 
-/* cintact section styles */
+/* contact section styles */
 .contact{
     display: flex;
     align-items: center;
